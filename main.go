@@ -6,6 +6,6 @@ package main
 
 import "github.com/alanxxxxxx/algorithm016/Week_01"
 
-func main(){
-	Week_01.Test()
+func main() {
+	Week_01.RotateArrayTest() // 翻转数组
 }

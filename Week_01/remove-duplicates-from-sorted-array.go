@@ -4,8 +4,6 @@
 // @Update  alan  2020/9/13 15:bn
 package Week_01
 
-import "fmt"
-
 /*
 	双指针操作，j为慢指针，i为快指针
 	1. 当nums[i] == nums[j] 则 相邻重复 i++
@@ -19,10 +17,5 @@ func removeDuplicates(nums []int) int {
 			j++
 		}
 	}
-	return j+1
-}
-func Test() {
-	list := []int{1, 2, 2, 2, 2, 3, 4}
-	fmt.Println(removeDuplicates(list))
-	fmt.Println(list)
+	return j + 1
 }
